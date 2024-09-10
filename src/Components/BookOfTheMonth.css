@@ -1,0 +1,95 @@
+.BookOfTheMonthContainer {
+  margin-top: 10px;
+  position: relative;
+}
+.BookOfTheMonthImageContainer{
+    background-color: #FFC38B;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.BookOfTheMonthTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    width: 40%;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: #000000 0px 0px 2px;
+    border-radius: 10px;
+    font-family: "Inter";
+}
+.BookOfTheMonth{
+    margin: 50px;
+    margin-left: 20% ;
+    margin-right: 20%;
+}
+.BookOfTheMonthTitle{
+    font-size: 100%;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.BookOfTheMonthSubtitle{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.BookOfTheMonthImage{
+    width: 100%;
+    height: 100%;
+
+}
+.BookOfTheMonthHeader{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 50px;
+    font-family: "Inter";
+}
+.BookOfTheMonthUnderline{
+    width: 20%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #e5ac77;
+    display: inline-block;
+    align-self: center;
+}
+.BookOfTheMonthUnderlineContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .BookOfTheMonth{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .BookOfTheMonthTextContainer{
+        position: absolute;
+        top: 90%;
+        width: 100%;
+    }
+    .BookOfTheMonthImageContainer{
+        height: 250px;
+    }
+    .BookOfTheMonthTitle{
+        font-size: 70%;
+    }
+    .BookOfTheMonthSubtitle{
+        font-size: 0.7rem;
+    }
+    .BookOfTheMonthHeader{
+        font-size: 1.2rem;
+    }
+    .BookOfTheMonthUnderline{
+        width: 10%;
+        height: 5px;
+    }
+    
+}

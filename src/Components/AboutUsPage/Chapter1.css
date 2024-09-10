@@ -1,0 +1,74 @@
+.Chapter1Image{
+    object-fit: cover;
+    width: 70%;
+    height: 450px;
+}
+.Chapter1ContainerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;    
+    margin: 100px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 100px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+.Chapter1ContainerTwo{
+    display: flex;
+}
+.Chapter1ContainerImage{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.Chapter1ContainerText{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Chapter1Title{
+    font-size: 160%;
+    font-weight: 800;
+    font-family: "Inter";
+
+}
+.Chapter1Subtitle{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 80%;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Inter";
+}
+.Chapter1SubtitleContainer{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+@media screen and (max-width: 768px){
+    .Chapter1ContainerTwo{
+        flex-direction: column;
+    }
+    .Chapter1ContainerOne{
+        margin:0px;
+        margin-top: 100px;
+    }
+    .Chapter1ContainerText{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .Chapter1ContainerImage{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Chapter1Subtitle{
+        width: 100%;
+    }
+
+}

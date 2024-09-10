@@ -1,0 +1,28 @@
+.Chapter3ExecsList{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid:0px;
+
+
+
+}
+.Chapter3ContainerOne{
+    width: 100%;
+}
+.Chapter3ExecsListContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.Chapter3Title{
+    font-size: 160%;
+    font-weight: 800;
+    font-family: "Inter";
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}

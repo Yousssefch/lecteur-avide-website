@@ -1,0 +1,104 @@
+.Footer{
+    background-color: #FFC38B;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+.FooterContainerOne{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FooterContainerTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FooterContainerThree{
+    width: 100%;
+    height: 100%;
+    background-color: #e7af7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.FooterUsefulLinksText{
+    font-size: 20px;
+    margin: 10px;
+    font-family: "Inter";
+    font-weight: 1000;
+}
+.FooterLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+.FooterLink{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    font-family: "Inter";
+    text-decoration: underline;
+    cursor: pointer;
+}
+.FooterLogo{
+    width: 150px;
+}
+.FooterTitle{
+    font-size: 1.8rem;
+    font-weight: 1000;
+    color: white;
+    margin: 10px;
+    font-family: "Inter";
+    text-align: center;
+}
+.FooterSocialMediaText{
+    font-size: 100%;
+    margin: 10px;
+    font-family: "Inter";
+    font-weight: 1000;
+}
+.FooterContactUsText{
+    font-size: 100%;
+    margin: 10px;
+    font-family: "Inter";
+    font-weight: 1000;
+    text-align: center;
+}
+.FooterSocialMediaIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 768px){
+    .Footer{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .FooterContainerOne{
+        height: 30vh;
+    }
+    .FooterContainerTwo{
+        height: 30vh;
+    }
+    .FooterContainerThree{
+        height: 40vh;
+    }
+    .FooterLogo{
+        width: 100px;
+    }
+    
+}

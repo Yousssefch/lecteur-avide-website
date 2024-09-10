@@ -1,0 +1,64 @@
+.TextButtonRightContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    width: 100%;
+    height: 60vh;
+    border-radius: 5px;
+    flex-direction: column;
+    animation: apear 1s;
+}
+.TextButtonTitle{
+    font-size: 130%;
+    text-align: center;
+    font-weight: 800;
+}
+.TextButtonSubtitle{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 200;
+}
+.TextButtonButton{
+    margin: 30px;
+    font-weight: 600;
+    width: 150px;
+}
+.TextButtonContainer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    height: 400px;
+}
+.TextButtonLeftImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.TextButtonLeft{
+    width: 100%;
+    height: 100%;
+}
+.TextButtonWrapper{
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .TextButtonContainer{
+        flex-direction: column;
+        height: 100%;
+    }
+    .TextButtonWrapper{
+        margin: 0px;
+    }
+    .TextButtonRightContainer{
+        height: 50vh;
+    }
+
+
+}

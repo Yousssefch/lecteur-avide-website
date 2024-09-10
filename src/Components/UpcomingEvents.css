@@ -1,0 +1,23 @@
+.UpcomingEventsTitle{
+    font-size: 25px;
+    font-family: "Inter";
+    font-weight: 800;
+    margin: 30px;
+    margin-top: 50px;
+
+}
+.UpcomingEventsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:#f5f5f5;
+    margin-bottom: 50px;
+}
+.NoUpcomingEvents{
+    background-color: #f5f5f5;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}

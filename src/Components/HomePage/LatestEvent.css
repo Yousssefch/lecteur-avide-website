@@ -1,0 +1,68 @@
+.LatestEventContainer{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    animation: apear 1s;
+    animation-timeline: visibility 1s;
+
+
+
+}
+.OurLatestEvent{
+    font-size: 25px;
+    font-family: "Inter";
+    font-weight: 800;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+.LatestEventsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top: 30px;
+    margin: 50px;
+}
+.MoreEventsButton{
+    display: flex;
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 600;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #171717;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.MoreEventsButton:hover{
+    background-color: #171717;
+    color: white;
+    transition: 0.5s;
+}
+.MoreEventsButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 12%;
+
+}
+@keyframes apear {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+
+    }
+    to  {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

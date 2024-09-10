@@ -1,0 +1,40 @@
+.CardImage{
+    width: 171px;
+    height: 180px;
+    border-radius: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.CardImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    
+}
+.Chapter2Cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Chapter2ContainerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #1d1d1d;
+}
+.Chapter2Card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Chapter2Title{
+    font-size: 160%;
+    font-weight: 800;
+    font-family: "Inter";
+    margin: 20px;
+    color: white;
+}

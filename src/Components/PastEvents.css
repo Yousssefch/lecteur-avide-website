@@ -1,0 +1,32 @@
+.PastEventsTitle{
+    font-size: 25px;
+    font-family: "Inter";
+    font-weight: 800;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.PastEventsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 200px;
+    width: 100%;
+    background-color:#ffffff;
+    margin-bottom: 50px;
+
+}
+.NoPastEvents{
+    background-color: #ffffff;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.PastEventsSubtitle{
+    font-size: 10px;
+    font-family: "Inter";
+    text-align: center;
+    font-style: italic;
+}

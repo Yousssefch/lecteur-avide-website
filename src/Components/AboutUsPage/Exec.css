@@ -1,0 +1,52 @@
+.ExecContainer{
+    width: 325px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+
+
+}
+.ExecImage{
+    width: 324px;
+    height: 216px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid black;
+
+}
+.ExecImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.ExecName{
+    margin-top: 10px;
+    font-family: "Inter";
+    font-size: 130%;
+    font-weight: 1000;
+    margin-bottom: 0px;
+}
+.ExecNameContainer{
+    padding-left: 10px;
+}
+.ExecNameUnderline{
+    width: 100%;
+    height: 5px;
+    background-color: #FFC38B;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.ExecPosition{
+    font-family: "Inter";
+    font-size: 80%;
+    font-weight: 300;
+    font-style: italic;
+}
+.ExecPositionContainer{
+    padding-left: 15px;
+}

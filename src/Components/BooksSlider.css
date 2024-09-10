@@ -1,0 +1,56 @@
+.BookSliderCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.BooksSliderContainer{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+.BooksSliderImages{
+    
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-control-next{
+    filter: invert(100%);
+}
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.BooksSliderTitle{
+    font-size: 130%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Inter";
+    margin: 20px;
+}
+.BookSliderCaption{
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.BookSliderBookTitle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: #1d1d1d 1px solid;
+    width: 30%;
+    height: 200px;
+    top: 0px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 200;
+}
+.BookSliderFullContainer{
+    margin-top: 100px;
+}

@@ -1,0 +1,17 @@
+.GhostIconImage{
+    width: 40px;
+    margin-bottom: 0px;
+}
+.NoEventsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.NoEventsText{
+    font-size: 15px;
+    word-spacing: 3px;
+    font-weight: 200;
+    margin-top: 10px;
+}

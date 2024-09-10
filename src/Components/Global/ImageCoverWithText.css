@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.Imagecontainer{
+    width: 100%;
+    height: 500px;
+    border:  1px solid black;
+
+    position: relative;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    animation: apear 0.5s;
+    box-shadow: #777777 1px 1px 1px 1px ;
+    
+}
+.FrontPageImage1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.blackBox{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    opacity: 0.5;
+
+}
+.Text{
+    position: absolute;
+    font-family: "Inter";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.Subtitle{
+    font-size: 80%;
+    margin: 30px;
+    font-weight: 200;
+    
+
+}
+.Title{
+    font-size: 160%;
+    font-weight: 1000;
+}
+

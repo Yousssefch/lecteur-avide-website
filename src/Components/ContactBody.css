@@ -1,0 +1,25 @@
+.ghostImageContainer{
+    width: 50%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.ghostContactPage{
+    width: 80%;
+    margin: auto;
+    
+}
+.contactBody{
+    display: flex;
+
+}
+@media screen and (max-width: 800px){
+    .contactBody{
+        flex-direction: column;
+    }
+    .ghostImageContainer{
+        width: 100%;
+    }
+
+}
