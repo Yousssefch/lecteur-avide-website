@@ -1,5 +1,4 @@
-import { ref as storageRef } from 'firebase/storage';
-import {db, storage} from '../config/firebase'
+import {db} from '../config/firebase'
 import {collection, getDocs} from 'firebase/firestore'
 import {useState, useEffect} from 'react'
 
