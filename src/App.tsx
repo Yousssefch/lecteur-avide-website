@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 function App() {  
   return (
     <>
-    <BrowserRouter basename='lecteur-avide-website/'>
+    <BrowserRouter basename='/lecteur-avide-website/'>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/Events" element={<Eventpage />} />
