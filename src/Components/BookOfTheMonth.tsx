@@ -1,5 +1,4 @@
 import "./BookOfTheMonth.css"
-import PetitPrince from "../assets/BooksPage/PetitPrince.svg"
 import { getFetchDatabase } from "../Utils/Utils";
 
 function BookOfTheMonth() {

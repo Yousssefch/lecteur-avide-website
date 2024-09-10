@@ -1,7 +1,6 @@
 import "./UpcomingEvents.css";
 import { getFetchDatabase } from "../Utils/Utils";
 import Event from "./EventsComponent/Event";
-import { useState } from "react";
 import NoEvents from "./EventsComponent/NoEvents";
 
 function UpcomingEvents() {

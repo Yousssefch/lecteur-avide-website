@@ -1,5 +1,4 @@
 import "./Event.css";
-import Image1 from '../assets/EventPage/Image1.png';
 
 
 ;

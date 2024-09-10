@@ -1,5 +1,4 @@
 import LecteurAvideLogo from "../../assets/LecteurAvideLogo.png";
-import InstaLogo from "../../assets/InstaLogo.png";
 import "./Navbar.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect } from "react";
@@ -55,8 +54,10 @@ function Navbar() {
   }
 
   function closeSideBar() {
-    var sideBar = document.querySelector(".sideBar");
+    var sideBar = document.querySelector(".sideBar") as HTMLElement;
+    if (sideBar) {
     sideBar.style.display = "none";
+    }
   }
 
   }

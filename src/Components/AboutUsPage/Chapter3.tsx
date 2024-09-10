@@ -23,7 +23,7 @@ function Chapter3(){
             <div className="Chapter3ExecsList">
             {
                 execs && execs.length>0? (
-                    execs.map((exec,index) =>{
+                    execs.map((exec) =>{
                         return(  
                         <Execs execName={exec["Name"]} execImagePath={exec["ImagePath"]} execPosition={exec["Position"]} />)
                     }

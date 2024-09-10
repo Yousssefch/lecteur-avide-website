@@ -4,9 +4,8 @@ import Eventpage from './Pages/Eventpage'
 import Contactpage from './Pages/Contactpage'
 import BooksPage from './Pages/BooksPage'
 import AboutUsPage from './Pages/AboutUsPage'
-import { getEvents } from './Utils/Utils'
 import './Components/Global/Global.css'
-import { BrowserRouter, Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
