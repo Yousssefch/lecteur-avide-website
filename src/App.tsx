@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 function App() {  
   return (
     <>
-    <HashRouter>
+    <HashRouter basename={ import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/Events" element={<Eventpage />} />
