@@ -5,14 +5,14 @@ import Contactpage from './Pages/Contactpage'
 import BooksPage from './Pages/BooksPage'
 import AboutUsPage from './Pages/AboutUsPage'
 import './Components/Global/Global.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter,BrowserRouter, Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
 function App() {  
   return (
     <>
-    <BrowserRouter basename='/lecteur-avide-website/'>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/Events" element={<Eventpage />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/Books" element={<BooksPage />} />
         <Route path="/About" element={<AboutUsPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
