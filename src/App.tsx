@@ -5,7 +5,7 @@ import Contactpage from './Pages/Contactpage'
 import BooksPage from './Pages/BooksPage'
 import AboutUsPage from './Pages/AboutUsPage'
 import './Components/Global/Global.css'
-import { HashRouter,BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
