@@ -29,7 +29,7 @@ function Navbar() {
     <nav  className="Nav">
         <img className="LecteurAvideLogo" src={LecteurAvideLogo} />
       <ul className="navUl">
-        <li className="navLi hideOnMobile"><a href="/" className="NavLink">Home</a></li>
+        <li className="navLi hideOnMobile"><a href= {basename + "#/"} className="NavLink">Home</a></li>
         <li className="navLi hideOnMobile"><a href={basename +"#/About"} className="NavLink">About us</a></li>
         <li className="navLi hideOnMobile"><a href={basename +"#/Books"} className="NavLink">Books</a></li>
         <li className="navLi hideOnMobile"><a href={basename + "#/Events"} className="NavLink">Events</a></li>
@@ -39,7 +39,7 @@ function Navbar() {
 
       <ul className="navUl sideBar">
         <li className="navLi nav-item" onClick={() => {closeSideBar()}}><a className="CloseIcon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-        <a href="/" className="SideNavLink"><li className="navLi nav-item">Home</li></a>
+        <a href={basename + "#/"} className="SideNavLink"><li className="navLi nav-item">Home</li></a>
         <a href={basename + "#/About"} className="SideNavLink"><li className="navLi">About us</li></a>
         <a href={basename + "#/Books"} className="SideNavLink"><li className="navLi">Books</li></a>
         <a href={basename + "#/Events"} className="SideNavLink"><li className="navLi">Events</li></a>
