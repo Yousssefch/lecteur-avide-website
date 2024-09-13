@@ -4,6 +4,7 @@ import Event from "../EventsComponent/Event"
 import NoEvents from "../EventsComponent/NoEvents";
 
 function LatestEvents() {
+    let basename = import.meta.env.BASE_URL;
     const events = getFetchDatabase("LatestEvents").slice(1, 4);
     while(events == undefined){
         return (
@@ -31,7 +32,7 @@ function LatestEvents() {
             
             </div>
             <div className="MoreEventsButtonContainer">
-            <button onClick={() => location.href = "/Events"} type="button" className="btn btn-dark MoreEventsButton">More Events</button>
+            <button onClick={() => location.href = basename +"#/Events"} type="button" className="btn btn-dark MoreEventsButton">More Events</button>
             </div>
         </div>
     )

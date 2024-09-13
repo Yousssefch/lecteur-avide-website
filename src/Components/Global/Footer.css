@@ -82,6 +82,10 @@
     align-items: center;
     margin-top: 10%;
 }
+.FooterIconLink{
+    text-decoration: none;
+    color: black;
+}
 
 @media screen and (max-width: 768px){
     .Footer{
