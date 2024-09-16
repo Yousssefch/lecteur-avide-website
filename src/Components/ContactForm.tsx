@@ -1,9 +1,10 @@
 import "./ContactForm.css";
 function ContactForm(){
+    let basename = import.meta.env.BASE_URL;
     return (
         <div className="contactFormContainer">
             
-            <form className="contactForm" action="https://formsubmit.co/lecteuravide.uo@gmail.com" method="POST">
+            <form className="contactForm" action="https://formspree.io/f/xeojwrkd" method="POST">
 
                 <div className="contactText">
                 <h1 className="contactTitle">Contact us</h1>
@@ -28,10 +29,10 @@ function ContactForm(){
 
                 <div className="contactHolder">
                 <h2 className="contactTextHolder">Message :</h2>
-                <textarea className="contactMessage" name="comment" id="comment"></textarea>
+                <textarea className="contactMessage" name="message" id="comment"></textarea>
                 </div>
 
-                <button className="contactButton" type="submit">Send</button>
+                <button className="contactButton" type="submit" onClick={() => location.href = basename + "/ThankYou"}>Send</button>
             </form>
         </div>
     )

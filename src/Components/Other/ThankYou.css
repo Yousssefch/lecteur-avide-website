@@ -1,0 +1,28 @@
+.ThankYouContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.ThankYouCheck{
+    color: #99bcb5;
+}
+.ThankYouButton{
+    margin-top: 20px;
+    padding: 10px 50px;
+    background-color: #99bcb5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.ThankYouButton:hover{
+    background-color: #7f9c8d;
+    transition: 1s;
+}

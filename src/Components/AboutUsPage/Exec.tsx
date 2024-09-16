@@ -5,7 +5,7 @@ function Execs({execName, execPosition, execImagePath}: {execName: string, execP
     return(
         <div className="ExecContainer">
             <div className="ExecImageContainer">
-                <Image src={execImagePath} className="ExecImage"/>
+                <Image loading="lazy" role="presentation" src={execImagePath} className="ExecImage"/>
             </div>
             
             <div className="ExecNameContainer">

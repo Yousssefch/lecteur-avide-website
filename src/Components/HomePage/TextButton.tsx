@@ -12,7 +12,7 @@ function TextButton() {
         </div>
         <div className='TextButtonRightContainer'>
             <h1 className='TextButtonTitle'>Need to contact us?</h1>
-            <h3 className='TextButtonSubtitle'>Let us know what’s in your mind</h3>
+            <h3 className='TextButtonSubtitle'>Let us know what’s on your mind</h3>
             <button type="button" onClick={() => location.href = basename + "#/Contact"} className="TextButtonButton btn btn-dark">Contact us</button>
         </div>
         </div>
