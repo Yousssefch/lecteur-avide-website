@@ -6,11 +6,13 @@ import Footer from "../Components/Global/Footer";
 import Image1 from '../assets/Homepage/Image1.jpeg';
 import LatestEvents from "../Components/HomePage/LatestEvents";
 import BookCover from "../Components/BookCover";
+import FrontView from "../Components/HomePage/FrontView";
 function Homepage() {
   return (
     <div>
       <Navbar />
-      <ImageCoverWithText Image={Image1} Title="Read with passion!" Subtitile="You’re favourite Reader’s Club is right here at the University of Ottawa" />
+      {/* <ImageCoverWithText Image={Image1} Title="Read with passion!" Subtitile="You’re favourite Reader’s Club is right here at the University of Ottawa" /> */}
+      <FrontView />
       <LatestEvents />
       <ImageCoverWithText2 />
       <TextButton />
