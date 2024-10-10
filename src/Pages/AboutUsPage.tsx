@@ -9,7 +9,7 @@ function AboutUsPage() {
     return (
         <div>
             <Navbar />
-            <ImageCoverWithText Image={AboutUsImage} Title="About Us" Subtitile="We are a team of passionate readers who want to share words" />
+            <ImageCoverWithText Image={AboutUsImage} Title="About Us" Subtitile="Get to know the passionate readers behind our success" />
             <Chapter1 />
             <Chapter2 />
             <Chapter3 />
