@@ -47,7 +47,7 @@ function Chapter2(){
                     <Card.Body>
                         <Card.Title className="CardTitle">Literature Accessible for the French-Speaking Minorities</Card.Title>
                         <Card.Text className="CardText">
-                        French-speaking minorities can access a wide range of literary resources, fostering cultural inclusion and academic growth.
+                        The Avid Readers Club is committed to making literature more accessible for French-speaking minorities at the University of Ottawa. By offering resources, events, and discussions in French.
                         </Card.Text>
                     </Card.Body>
                 </Card>
