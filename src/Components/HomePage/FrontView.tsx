@@ -7,7 +7,7 @@ function FrontView(){
             <div className="FrontViewTextContainer">
                 <div className= "FrontViewTitleContainer">
                 <h1 className="FrontViewTitleOne">Lecteurs</h1>
-                <h1 className="FrontViewTitleTwo">Avide.</h1>
+                <h1 className="FrontViewTitleTwo">Avides</h1>
                 </div>
                 <p className="FrontViewSubTitle">Join us and enjoy the best book club experience</p>
 

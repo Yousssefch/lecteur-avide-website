@@ -17,9 +17,9 @@ function Chapter2(){
                     </div>
 
                     <Card.Body>
-                        <Card.Title className="CardTitle">Sharing</Card.Title>
+                        <Card.Title className="CardTitle">Creating a Safe Space for Minorities</Card.Title>
                         <Card.Text className="CardText">
-                            We believe that books are meant to be shared. Whether you're discovering new stories or passing along old favorites, we’re here to make the joy of reading a shared experience.
+                        our vision is to cultivate a welcoming and inclusive environment where minorities, particularly French-speaking students, can freely express themselves.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -31,9 +31,9 @@ function Chapter2(){
                     </div>
                     
                     <Card.Body>
-                        <Card.Title className="CardTitle">Build a community</Card.Title>
+                        <Card.Title className="CardTitle">Promoting Local Talent Through</Card.Title>
                         <Card.Text className="CardText">
-                            At our university book club, we believe that books are more than just words on a page—they're the foundation for building a strong, connected community.
+                            Our reading club at the University of Ottawa is dedicated to showcasing the vibrant literary scene of the Ottawa-Gatineau region. 
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -45,9 +45,9 @@ function Chapter2(){
                     </div>
                     
                     <Card.Body>
-                        <Card.Title className="CardTitle">Communication</Card.Title>
+                        <Card.Title className="CardTitle">Literature Accessible for the French-Speaking Minorities</Card.Title>
                         <Card.Text className="CardText">
-                        we see every book as an opportunity to spark meaningful conversations and build lasting friendships.
+                        French-speaking minorities can access a wide range of literary resources, fostering cultural inclusion and academic growth.
                         </Card.Text>
                     </Card.Body>
                 </Card>
