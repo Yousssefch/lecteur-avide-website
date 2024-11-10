@@ -114,6 +114,19 @@
     transition: 0.1s;
     color: black;
 }
+.JoinButton{
+    border-radius: 10px;
+    background-color: #99bcb5;
+    margin-right: 20px;
+    margin-left: 30px;
+    width: 150%;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #6e8883;
+    color: #ffffff;
+    font-family: "Inter";
+}
 @media(max-Width: 800px){
     .hideOnMobile{
         display: none;
