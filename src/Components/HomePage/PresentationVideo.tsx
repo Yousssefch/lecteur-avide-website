@@ -9,7 +9,7 @@ export default function PresentationVideo() {
             </div>
 
             <div className="PresentationVideoContainerTwo">
-            <iframe width={window.innerWidth>= 789? window.innerWidth*0.4:window.innerWidth*0.8} height={window.innerWidth>= 789? window.innerWidth*0.2:window.innerWidth*0.4} allow="autoplay" className="PresentationVideo" src="https://www.youtube.com/embed/lp-Y1yvsv_I?si=8oGm92WHXY5TeAEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe  width={window.innerWidth>= 789? window.innerWidth*0.4:window.innerWidth*0.8} height={window.innerWidth>= 789? window.innerWidth*0.2:window.innerWidth*0.4}  className="PresentationVideo" src="https://www.youtube.com/embed/lp-Y1yvsv_I?si=8oGm92WHXY5TeAEw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 
             </div>
         </div>
