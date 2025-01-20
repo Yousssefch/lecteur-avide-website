@@ -5,6 +5,8 @@ import Footer from "../Components/Global/Footer";
 import LatestEvents from "../Components/HomePage/LatestEvents";
 import BookCover from "../Components/BookCover";
 import FrontView from "../Components/HomePage/FrontView";
+import JoinUs from "../Components/HomePage/JoinUs";
+import PresentationVideo from "../Components/HomePage/PresentationVideo";
 function Homepage() {
   return (
     <div>
@@ -15,6 +17,8 @@ function Homepage() {
       <ImageCoverWithText2 />
       <TextButton />
       <BookCover />
+      <JoinUs />
+      <PresentationVideo />
       <Footer />
     </div>
   );
